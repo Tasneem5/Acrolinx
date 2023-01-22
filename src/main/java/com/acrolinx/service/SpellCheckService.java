@@ -23,7 +23,7 @@ public class SpellCheckService {
 		MySpellChecker spellChecker = new MySpellChecker(DICTIONARY);
 		List<IssueEntity> listIssues = new ArrayList<IssueEntity>();
 		// Spellchecker will check the input text against the dictionary present at
-		// location -> DICTIONARY .Also fill the issues list .
+		// location -> DICTIONARY .Also fill the issues list .g
 		String correctOutputText = spellChecker.doCorrection(text.getInputText(), listIssues);
 
 		// Setting values to output json object
